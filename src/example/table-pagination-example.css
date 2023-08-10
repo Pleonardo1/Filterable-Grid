@@ -1,0 +1,43 @@
+p {
+  font-family: Lato;
+}
+
+table {
+  width: 100% !important;
+}
+
+.header {
+  padding: 5px !important;
+}
+
+.filter {
+  display: block !important;
+}
+
+.header {
+  background-color: lightblue !important;
+  font-size: 1.2em !important;
+  color: #656565 !important;
+  text-align: center !important;
+}
+
+th,
+td {
+  border-right: 1px solid rgba(0, 0, 0, 0.12) !important;
+  text-align: center !important;
+}
+
+.filter {
+  padding-right: 0.1vw !important;
+  padding-left: 0.1vw !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.filter-header {
+  padding-top: 1vh;
+}
+
+#paginator {
+  border-top: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
